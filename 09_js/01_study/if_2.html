@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>JavaScript</title>
+</head>
+
+<body>
+    <script>
+        //変数を宣言してif文を使う
+        let price = 1000;
+        if (price >= 100) {
+            console.log("これは100円以上");
+        } else {
+            console.log("これは100円未満です");
+        }
+    </script>
+</body>
+
+</html>```
+
+#### 出力結果
+
+サーバー上でデベロッパーツールの Console から確認しましょう。
+
+| <img src="./images/if_2_1.png"> |
+| :-----------------------------: |
+
+
+| <img src="./images/if_2_2.png"> |
+| :-----------------------------: |
+
+
+<br>
+
+<br>
+
+複数条件がある場合は **else if** を使用します。
+
+### 準備
+
+```diff
+camp/
+└── 09_js/
+└── 01_study/
+├── test_1.html
+├── test_2.html
+├── app.js
+├── console_log.html
+├── if_1.html
+├── if_2.html
++ └── elseif.html
